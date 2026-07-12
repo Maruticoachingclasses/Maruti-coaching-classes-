@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maruti Coaching Classes</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f5f7fb;
+color:#222;
+}
+
+header{
+position:fixed;
+width:100%;
+top:0;
+left:0;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 8%;
+background:rgba(0,0,50,.8);
+backdrop-filter:blur(10px);
+z-index:1000;
+}
+
+.logo{
+color:#fff;
+font-size:28px;
+font-weight:bold;
+}
+
+nav a{
+color:#fff;
+text-decoration:none;
+margin-left:20px;
+transition:.3s;
+}
+
+nav a:hover{
+color:gold;
+}
+
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+color:white;
+padding:20px;
+}
+
+.hero h1{
+font-size:55px;
+margin-bottom:15px;
+animation:fadeDown 1s;
+}
+
+.hero p{
+font-size:22px;
+margin-bottom:30px;
+animation:fadeUp 1.5s;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
+background:gold;
+color:black;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+transform:scale(1.08);
+}
+
+@keyframes fadeDown{
+from{opacity:0;transform:translateY(-60px);}
+to{opacity:1;transform:translateY(0);}
+}
+
+@keyframes fadeUp{
+from{opacity:0;transform:translateY(60px);}
+to{opacity:1;transform:translateY(0);}
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<div class="logo">Maruti Coaching</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Courses</a>
+<a href="#">Gallery</a>
+<a href="#">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+
+<h1>Maruti Coaching Classes</h1>
+
+<p>Admission Open 2026-27 <br>
+Nursery to Class 10 (MP Board)<br><br>
+
+📍 Sarkari School ke Piche, Vikramgarh, Alot<br>
+
+🕔 Evening Batch : 5:00 PM - 8:00 PM
+
+</p>
+
+<a href="https://wa.me/916267311721" class="btn">
+Apply on WhatsApp
+</a>
+
+</div>
+
+</section>
+
+</body>
+</html>
